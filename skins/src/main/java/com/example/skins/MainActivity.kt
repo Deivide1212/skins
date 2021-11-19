@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
 
     fun drawn1(view: View){
         var texto = findViewById(R.id.numberdrawn1) as TextView
-
         var numberdrawn1 = Random().nextInt(11)
         texto.setText("number drawn is: $numberdrawn1 ")
 
